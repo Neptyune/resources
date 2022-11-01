@@ -3,10 +3,7 @@
 #+description: This repository contains all resources for group activities we've done outside of hackathons/competitions
 #+date: <2022-11-01 Tue>
 
-* Neptyune: Resources
-
-This is a repository containing all the resources we've made and used for group activities outside of
-hackathons/competitions
+This is a repository containing all the resources we've made and used for group activities outside of hackathons/competitions
 
 ** How to use
 The folders should have index.md/index.pdf, but it is recommended to use marp to present the content since

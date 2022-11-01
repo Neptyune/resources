@@ -1,0 +1,12 @@
+#+title: Neptyune: Resources
+#+author: Atri Hegde
+#+description: This repository contains all resources for group activities we've done outside of hackathons/competitions
+#+date: <2022-11-01 Tue>
+
+* Neptyune: Resources
+
+This is a repository containing all the resources we've made and used for group activities outside of hackathons/competitions
+
+** GoLang Group Project
+    A simple TUI for git written in golang using the bubbletea framework. We've used this to learn how to contribute and work together using git, and consolidating our golang skills.
+This was done in prepartation for HackSheffield7 - A hackathon.

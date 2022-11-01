@@ -5,8 +5,22 @@
 
 * Neptyune: Resources
 
-This is a repository containing all the resources we've made and used for group activities outside of hackathons/competitions
+This is a repository containing all the resources we've made and used for group activities outside of
+hackathons/competitions
 
+** How to use
+The folders should have index.md/index.pdf, but it is recommended to use marp to present the content since
+assets might not be loaded properly in the converted versions. An example of how to run it would be:
+#+BEGIN_SRC
+git clone https://github.com/neptyune/resources.git --depth=1
+cd resources/<enter project name here>
+npx @marp-team/marp-cli@^2 --bespoke.transition --preview index.md
+#+END_SRC
+
+For more options check the [[https://github.com/marp-team/marp-cli][marp-cli github.]]
+
+* Projects
 ** GoLang Group Project
-    A simple TUI for git written in golang using the bubbletea framework. We've used this to learn how to contribute and work together using git, and consolidating our golang skills.
-This was done in prepartation for HackSheffield7 - A hackathon.
+    A simple TUI for git written in golang using the bubbletea framework. We've used this to learn how to
+    contribute and work together using git, and consolidating our golang skills. This was done in prepartation
+    for HackSheffield7 - A hackathon.

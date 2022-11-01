@@ -101,10 +101,12 @@ They should be able to do the following from the TUI
 # Libraries to use
 ![bg vertical fit right](cobra.png)
 ![bg right fit](bubbletea.png)
+![bg right fit](bubbles.png)
 ![bg right fit](lipgloss.png)
 
 - [Cobra](https://github.com/spf13/cobra): parse cmd arguments passed if required
 - [BubbleTea](https://github.com/charmbracelet/bubbletea): TUI framework
+- [Bubbles](https://github.com/charmbracelet/bubbles): TUI components for Bubbletea
 - [Lip Gloss](https://github.com/charmbracelet/lipgloss): TUI style definitions
 
 ---

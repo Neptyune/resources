@@ -29,7 +29,7 @@ style: |
 # Framework we are going to use.
 ![bg right width:250px](bubbletea.png)
 
-BubbleTea is a TUI framework for golang.
+[BubbleTea](https://github.com/charmbracelet/bubbletea) is a TUI framework for golang.
 
 ---
 
@@ -47,11 +47,11 @@ Embrace the terminal.
 
 ---
 
-![bg fit](terminal.webp)
+![bg contain](terminal.webp)
 
 ---
 
-![bg fit](embraceIt.png)
+![bg contain](embraceIt.png)
 
 ---
 
@@ -70,8 +70,13 @@ They should be able to do the following from the TUI
 
 # Extra details
 
-- Should be able to detect if current directory is a git directory, and if not it should ask if it should initlize a git repository
+- Should be able to detect if current directory is a git directory, and if not it should ask if it should initialize a git repository
 - We will not be handling any merge conflicts, that is out of scope. Can you think of way to handle this error?
+
+## Helpful links
+
+- [Youtube tutorial - beginner](https://www.youtube.com/watch?v=j5p5SpqWS8E)
+- [Groundup tutorial - intermediate](https://www.inngest.com/blog/interactive-clis-with-bubbletea)
 
 ---
 
@@ -93,6 +98,18 @@ They should be able to do the following from the TUI
 
 ---
 
+# Libraries to use
+![bg vertical fit right](cobra.png)
+![bg right fit](bubbletea.png)
+![bg right fit](lipgloss.png)
+
+- [Cobra](https://github.com/spf13/cobra): parse cmd arguments passed if required
+- [BubbleTea](https://github.com/charmbracelet/bubbletea): TUI framework
+- [Lip Gloss](https://github.com/charmbracelet/lipgloss): TUI style definitions
+
+---
+
 # Bonus
 
 If we have extra time, try to implement the `git revert` feature.
+

@@ -11,6 +11,9 @@ mkShell {
       export NPM_CONFIG_PREFIX=$PWD/.nix-node
       export PATH=$NODE_PATH/bin:$PATH
       alias presentmd='npx @marp-team/marp-cli@latest --bespoke.transition --preview'
+      echo "run"
+      echo "presentmd <markdown file>"
+      echo "to present the markdown file"
   '';
 }
 
